@@ -3,7 +3,7 @@ import psycopg2
 DATABASE = 'senac'
 PORT = '1144'
 USER = 'postgres'
-PASSWORD = '' #Senha vazia apenas por motivos de segurança.
+PASSWORD = '' 
 HOST = 'localhost'
 
 def conect_to_database():
