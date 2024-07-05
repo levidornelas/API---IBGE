@@ -3,7 +3,7 @@ from PyQt6.QtWidgets import *
 from PyQt6.QtGui import QIcon
 from PyQt6.QtCore import Qt
 import requests
-from database import register_users
+from conexao_banco import register_users
 
 class JanelaPrincipal(QMainWindow):
     def __init__(self):
