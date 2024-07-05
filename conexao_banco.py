@@ -45,7 +45,7 @@ def register_users(cep, rua, bairro, cidade, estado):
         connection.commit() #garantir que todas as alterações sejam refletidas permanentemente no banco.
         cursor.close()
         connection.close()
-        
         return "Endereço cadastrado com sucesso!"
+      
     except Exception as e:
         return "Erro ao cadastrar endereço. Por favor tente novamente."
