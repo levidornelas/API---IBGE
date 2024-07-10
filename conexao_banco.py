@@ -1,7 +1,7 @@
 import psycopg2 
 
 DATABASE = 'senac'
-PORT = '1144'
+PORT = ''
 USER = 'postgres'
 PASSWORD = '' 
 HOST = 'localhost'
